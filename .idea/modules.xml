@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/alura-imersao-java-api-imdb.iml" filepath="$PROJECT_DIR$/.idea/alura-imersao-java-api-imdb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apitopmoviesimdb/apitopmoviesimdb.iml" filepath="$PROJECT_DIR$/apitopmoviesimdb/apitopmoviesimdb.iml" />
+    </modules>
+  </component>
+</project>
