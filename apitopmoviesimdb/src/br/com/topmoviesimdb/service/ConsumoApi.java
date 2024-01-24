@@ -7,12 +7,13 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class ConsumoApi {
-    public String retornaLista(String endereco) {
+    public static String retornaLista(String endereco) {
         try {
             HttpClient client = HttpClient.newHttpClient();
             HttpRequest request = HttpRequest
                     .newBuilder()
                     .uri(URI.create(endereco))
+                    .GET()
                     .build();
             HttpResponse<String> response = client
                     .send(request, HttpResponse.BodyHandlers.ofString());
