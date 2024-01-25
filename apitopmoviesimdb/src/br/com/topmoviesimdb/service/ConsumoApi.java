@@ -19,8 +19,10 @@ public class ConsumoApi {
                     .send(request, HttpResponse.BodyHandlers.ofString());
 
             return response.body();
-        } catch (IOException | InterruptedException e) {
+        } catch (IOException e) {
             return "Não foi possível chamar a API";
+        } catch (InterruptedException e) {
+            return "Não foi possível conectar a API, está demorando.";
         }
     }
 }
